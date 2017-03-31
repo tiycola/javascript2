@@ -1,0 +1,61 @@
+1. 0, empty string, null, false, undefined.
+	(There are 6 falsey values in JavaScript)
+
+2. Number(not 0), String(not empty), boolean(true), objects, arrays
+
+3. The variable sameAge will be set to "No!". while equal in value myAge and 		yourAge are not equal in type. === is a comparison which requires type and 		value to match in order to return a value of true.
+
+4. 
+
+var addition2 = 7 + 13;
+console.log(addition2);
+
+var addition3 = (7 + 13) + 21;
+console.log(addition3);
+
+var addPosNeg = 7 + -13;
+console.log(addPosNeg);
+
+var subtract2 = 7 - 13;
+console.log(subtract2);
+
+var subtract3 = (7 - 13) - 21;
+console.log(subtract3);
+
+var subtractPosNeg = (-7 + 13) - 8;
+console.log(subtractPosNeg);
+
+var combineAddSub = (7 + -13) - 21;
+console.log(subtractPosNeg);
+
+var multiply2 = 7 * 13;
+console.log(multiply2);
+
+var multiplyThree1Neg = (7 * 13) * -21;
+console.log(multiplyThree1Neg);
+
+var divide2 = 7 / 13;
+console.log(divide2);
+
+var divide3 = (7 / 13) / 21;
+console.log(divide3);
+
+var modulo2 = (25 % 4);
+console.log(modulo2);
+
+var complicatedExpression = (((7 + -13) - ((-21 * 7) / 13)) % 21);
+console.log(complicatedExpression);
+
+5. I'll work on the car if I have parts money and time off, or it's not a			difficult fix.
+
+var partsMoney = true;
+
+var timeOff = false;
+
+var difficultFix = false;
+
+//Am I working on the car?
+
+console.log(partsMoney && (timeOff || !difficultFix));
+
+
